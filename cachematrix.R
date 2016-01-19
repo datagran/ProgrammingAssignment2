@@ -2,8 +2,9 @@
 ## If the same  matrix is input again ,the  cached inverse can be used, saving the 
 ## costs of recalculation, useful when handling large datasets.
 
-## 1.The first function,makeCacheMatrix creates a 'special matrix' in the sense that it  is a list. 
-## It sets the value of the matrix,gets the value of the matrix, and caches the inverse. 
+## 1.The first function,makeCacheMatrix creates a 'special matrix' in the sense that it  is a list
+## of pointers to functions like 'get' and 'set'. 
+## makeCacheMatrix sets the value of the matrix,gets the value of the matrix, and caches the inverse. 
 
 
 makeCacheMatrix <- function(x = matrix()) {
