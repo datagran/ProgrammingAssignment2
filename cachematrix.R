@@ -1,8 +1,8 @@
 ## These two functions form an object that takes a matrix, inverses it and caches the inverse. 
-## If the  matrix is input again ,its cached inverse can be used, saving the 
+## If the same  matrix is input again ,the  cached inverse can be used, saving the 
 ## costs of recalculation, useful when handling large datasets.
 
-## 1.The first function,makeCacheMatrix creates a 'special matrix' which is really a list. 
+## 1.The first function,makeCacheMatrix creates a 'special matrix' in the sense that it  is a list. 
 ## It sets the value of the matrix,gets the value of the matrix, and caches the inverse. 
 
 
